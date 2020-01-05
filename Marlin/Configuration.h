@@ -380,9 +380,9 @@
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
   
   // Hypercube on 24v v6 block
-  #define  DEFAULT_Kp 25.54
-  #define  DEFAULT_Ki 3.76
-  #define  DEFAULT_Kd 43.41
+  #define  DEFAULT_Kp 16.08
+  #define  DEFAULT_Ki 1.35
+  #define  DEFAULT_Kd 47.76
   // Ultimaker
   //#define DEFAULT_Kp 22.2
   //#define DEFAULT_Ki 1.08
@@ -782,7 +782,7 @@
  */
 #define X_PROBE_OFFSET_FROM_EXTRUDER 34  // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER 2  // Y offset: -front +behind [the nozzle]
-#define Z_PROBE_OFFSET_FROM_EXTRUDER -2.55   // Z offset: -below +above  [the nozzle]
+#define Z_PROBE_OFFSET_FROM_EXTRUDER -2.60   // Z offset: -below +above  [the nozzle]
 
 // Certain types of probes need to stay away from edges
 //#define MIN_PROBE_EDGE 10 //WIP
